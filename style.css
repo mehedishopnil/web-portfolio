@@ -4,6 +4,8 @@ body{
     
 }
 
+ /* For the first section */
+ /* For the first section */
 h1{
     font-size: 50px;
     font-weight: 700;
@@ -22,7 +24,7 @@ section{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 2px;
+    padding-left: 2%;
 }
 .half-width-img{
     width: 100%;
@@ -38,5 +40,39 @@ section{
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 40px;
     border-radius: 5px;
+
+}
+
+/* Second section */
+/* Second section */
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.header-exp{
+    text-align: center;
+}
+
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#full-stack{
+    box-shadow: 5px 7px 40px rgb(187, 187, 187);
+    height: 80%;
+    border-left: 7px solid tomato ;
+    background-color: white;
+}
+
+#baby-web{
+    box-shadow: 5px 7px 40px rgb(187, 187, 187);
+    height: 80%;
+    border-left: 7px solid blue;
+    background-color: white;
 
 }
